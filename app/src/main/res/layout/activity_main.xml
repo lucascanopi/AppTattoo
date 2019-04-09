@@ -8,7 +8,7 @@
     tools:layout_editor_absoluteY="81dp">
 
     <ListView
-        android:id="@+id/ListView1"
+        android:id="@+id/tattoo"
         style="@style/estiloNovo"
         android:layout_width="0dp"
         android:layout_height="197dp"
@@ -25,10 +25,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="17dp"
-        android:text="Button"
+        android:text="Confirmar"
         app:layout_constraintBottom_toTopOf="@+id/test"
         app:layout_constraintStart_toStartOf="@+id/3"
-        app:layout_constraintTop_toBottomOf="@+id/ListView1" />
+        app:layout_constraintTop_toBottomOf="@+id/tattoo" />
 
     <Button
         android:id="@+id/2"
@@ -37,7 +37,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="44dp"
         android:enabled="false"
-        android:text="Button"
+        android:text="Cancelar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/3"
         app:layout_constraintTop_toBottomOf="@+id/test" />
@@ -47,9 +47,9 @@
         style="@style/Botao2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="28dp"
         android:layout_marginEnd="104dp"
-        android:text="Button"
+        android:layout_marginBottom="28dp"
+        android:text="Achar Similares"
         app:layout_constraintBottom_toTopOf="@+id/2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/test" />
